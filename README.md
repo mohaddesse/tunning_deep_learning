@@ -1,13 +1,15 @@
 # tunning_deep_learning
-> I've inspired by deep learning coursera.
-1. initilize parameter 
+> I've inspired by deep learning coursera.  
+
+**1. initilize parameter** 
  - zeros
  - random
- - xaviar
-2. regularization l2
+ - xaviar  
+ 
+**2. regularization l2**
  - for compute cost function write a function to do that
  
-3.check gradient descent
+**3.check gradient descent**
 <a name='ex-3'></a>
 - First compute "gradapprox" using the formula above (1) and a small value of $\varepsilon$. Here are the Steps to follow:
     1. $\theta^{+} = \theta + \varepsilon$
@@ -20,3 +22,8 @@
 
 $$ difference = \frac {\mid\mid grad - gradapprox \mid\mid_2}{\mid\mid grad \mid\mid_2 + \mid\mid gradapprox \mid\mid_2} \tag{2}$$
 
+**4. optimize gradient descent**
+- mini batch gradient descent
+- momentum
+- RMSprop
+- adam optimizer
