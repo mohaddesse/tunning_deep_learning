@@ -1,5 +1,5 @@
 # tunning_deep_learning
-
+> I've inspired by deep learning coursera.
 1. initilize parameter 
  - zeros
  - random
